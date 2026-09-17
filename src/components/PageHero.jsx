@@ -3,7 +3,7 @@ import { IMG } from "../data/siteData";
 
 export default function PageHero({eyebrow,title,text,image=IMG.hero}) {
   return <section className="relative min-h-[470px] overflow-hidden bg-[#17100b] pt-[78px]">
-    <img src={image} alt="" className="absolute inset-0 h-full w-full object-cover opacity-55"/>
+    <img src={image} alt="" className="absolute inset-0 h-full w-full  object-cover opacity-55"/>
     <div className="hero-overlay absolute inset-0"/>
     <div className="relative mx-auto flex min-h-[390px] max-w-7xl items-end px-5 pb-20 lg:px-8">
       <div className="max-w-3xl text-white">
