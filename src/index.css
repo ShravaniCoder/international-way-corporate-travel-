@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: #f9f6ef;
+  color: #3e3a32;
+  font-family: "Montserrat", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: #f1d295; color: #2b1a0f; }
+
+.font-display { font-family: "Playfair Display", Georgia, serif; }
+
+.luxury-bg {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(241,210,149,.16), transparent 30%),
+    radial-gradient(circle at 85% 70%, rgba(184,139,60,.13), transparent 28%),
+    linear-gradient(135deg, #2b1a0f 0%, #17100b 55%, #0f0f0f 100%);
+}
+
+.gold-line {
+  height: 1px;
+  width: 72px;
+  background: linear-gradient(90deg, transparent, #f1d295, transparent);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(90deg, #b88b3c, #f1d295, #b88b3c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-overlay {
+  background: linear-gradient(90deg, rgba(15,15,15,.88) 0%, rgba(43,26,15,.62) 48%, rgba(15,15,15,.18) 100%);
+}
+
+.image-overlay {
+  background: linear-gradient(180deg, rgba(15,15,15,.03), rgba(15,15,15,.75));
+}
+
+.nav-link { position: relative; }
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -7px;
+  margin: auto;
+  width: 0;
+  height: 1px;
+  background: #f1d295;
+  transition: width .25s ease;
+}
+.nav-link:hover::after, .nav-link.active::after { width: 100%; }
+
+.luxury-card {
+  background: rgba(255,255,255,.82);
+  border: 1px solid rgba(168,151,122,.28);
+  box-shadow: 0 18px 55px rgba(43,26,15,.09);
+  backdrop-filter: blur(8px);
+}
+
+.pattern {
+  background-image:
+    linear-gradient(rgba(184,139,60,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(184,139,60,.05) 1px, transparent 1px);
+  background-size: 38px 38px;
+}
+
+input, select, textarea { outline: none; }
+input:focus, select:focus, textarea:focus {
+  border-color: #b88b3c !important;
+  box-shadow: 0 0 0 3px rgba(184,139,60,.11);
+}
+
+@keyframes floatSoft {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
+.float-soft { animation: floatSoft 5s ease-in-out infinite; }
+
+@media (max-width: 768px) {
+  .hero-overlay { background: linear-gradient(180deg, rgba(15,15,15,.78), rgba(43,26,15,.72)); }
+}
