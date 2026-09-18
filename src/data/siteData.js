@@ -13,6 +13,8 @@ export const IMG = {
   dubai: "/images/globall.png",
   kuwait: "/images/kuwait.png",
   serviceh : "/images/service.png",
+  servicehMobile: "/images/serviceM.png",
+  solutionMobile: "/images/solutionM.png"
 };
 
 export const services = [
