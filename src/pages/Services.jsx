@@ -7,7 +7,7 @@ import ServiceCard from "../components/ServiceCard";
 
 export default function Services() {
   return <>
-    <PageHero eyebrow="Our Services" title="Business travel, from first detail to final arrival." text="A coordinated portfolio of travel and hospitality services for employees, executives, groups and business guests." image={IMG.airport}/>
+    <PageHero eyebrow="Our Services" title="Business travel, from first detail to final arrival." text="A coordinated portfolio of travel and hospitality services for employees, executives, groups and business guests." image={IMG.serviceh}/>
     <section className="bg-[#f9f6ef] py-24"><div className="mx-auto max-w-7xl px-5 lg:px-8">
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">{services.map(({icon,title,text},i)=><ServiceCard key={title} icon={icon} title={title} text={text} number={`0${i+1}`}/>)}</div>
     </div></section>

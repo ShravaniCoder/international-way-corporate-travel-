@@ -6,12 +6,13 @@ export const IMG = {
   city: "/images/global-h.png",
   hotel: "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=1400&q=85",
   executive: "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=1400&q=85",
-  business: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1400&q=85",
+  business: "/images/solution.png",
   lounge: "/images/about-he.png",
   singapore: "/images/singapur.png",
   mumbai: "/images/mumbai.png",
-  dubai: "/images/Dubai.png",
-  kuwait: "/images/kuwait.png"
+  dubai: "/images/globall.png",
+  kuwait: "/images/kuwait.png",
+  serviceh : "/images/service.png",
 };
 
 export const services = [
