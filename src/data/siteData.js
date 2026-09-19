@@ -1,11 +1,11 @@
-import { Plane, Hotel, Star, Users, FileCheck2, CarFront, Handshake, BriefcaseBusiness, Globe2 } from "lucide-react";
+import { Plane, Hotel, Star, Users, FileCheck2, CarFront, ConciergeBell, Handshake, BriefcaseBusiness, Globe2 } from "lucide-react";
 
 export const IMG = {
   hero: "/images/hero-airport.png",
   airport: "/images/ContactH.png",
   city: "/images/global-h.png",
   hotel: "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=1400&q=85",
-  executive: "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=1400&q=85",
+  executive: "/images/travel.png",
   business: "/images/solution.png",
   lounge: "/images/about-he.png",
   singapore: "/images/singapur.png",
@@ -18,6 +18,29 @@ export const IMG = {
   london: "/images/London.png",
   europe: "/images/Europe.png",
 };
+
+export const homeServices = [
+  {
+    icon: Plane,
+    title: "Corporate Travel",
+    text: "We simplify business journeys through coordinated, efficient travel support.",
+  },
+  {
+    icon: Hotel,
+    title: "Hotel & Accommodation",
+    text: "Our team arranges stays that align with location, comfort and business needs.",
+  },
+  {
+    icon: BriefcaseBusiness,
+    title: "Executive / VIP Travel",
+    text: "We provide discreet, personalised travel support for senior and priority travellers.",
+  },
+  {
+    icon: ConciergeBell,
+    title: "Corporate Group Travel",
+    text: "We bring multiple travel requirements together for smooth, organised group movement.",
+  },
+];
 
 export const services = [
   {

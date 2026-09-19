@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Check, MapPin } from "lucide-react";
-import { IMG, services } from "../data/siteData";
+import { IMG, homeServices } from "../data/siteData";
 import Button from "../components/Button";
 import SectionIntro from "../components/SectionIntro";
 import ServiceCard from "../components/ServiceCard";
@@ -63,10 +63,11 @@ export default function Home() {
           <SectionIntro
             eyebrow="What we coordinate"
             title="Every detail, connected with purpose."
-            text="From executive journeys to corporate group movements, Edora International Way brings travel, accommodation and hospitality together with precision and ease."
+            text="From the first itinerary to the final arrival, Edora International Way coordinates every essential detail of the journey. We connect travel, accommodation, executive arrangements and hospitality into one seamless experience."
           />
+
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-            {services.slice(0, 4).map(({ icon: Icon, title, text }, i) => (
+            {homeServices.map(({ icon: Icon, title, text }, i) => (
               <ServiceCard
                 key={title}
                 icon={Icon}
@@ -76,6 +77,7 @@ export default function Home() {
               />
             ))}
           </div>
+
           <div className="mt-7 text-center">
             <Button to="/services" variant="outline">
               View All Services
@@ -89,16 +91,16 @@ export default function Home() {
           <div>
             <SectionIntro
               light
-              eyebrow="Why International Way"
-              title="Professional detail. Global perspective. Human service."
-              text="We coordinate the moving parts of corporate travel so your people can focus on the purpose of the journey. Every request is approached with clarity, responsiveness and care."
+              eyebrow="WHY EDORA INTERNATIONAL WAY"
+              title="Precision in every detail. Confidence in every journey."
+              text="We bring travel, hospitality and business requirements together through a responsive, considered approach, giving every journey the attention it deserves."
             />
             <div className="mt-9 grid gap-4 sm:grid-cols-2">
               {[
-                "One coordinated point of contact",
-                "Business-ready travel planning",
-                "Executive & group flexibility",
-                "Destination-aware assistance",
+                "Centralised Coordination",
+                "Business-Focused Planning",
+                "Flexible Solutions",
+                "Global Perspective",
               ].map((x) => (
                 <div key={x} className="flex gap-3 text-sm text-white/70">
                   <Check className="mt-0.5 text-[#f1d295]" size={17} />
@@ -115,9 +117,9 @@ export default function Home() {
             />
             <div className="image-overlay absolute inset-0" />
             <div className="absolute bottom-0 left-0 p-8 text-white">
-              <div className="font-display text-3xl">More than travel.</div>
+              <div className="font-display text-3xl">BEYOND THE JOURNEY.</div>
               <div className="mt-2 text-sm text-white/60">
-                A better tomorrow.
+                BUILT FOR WHAT COMES NEXT.
               </div>
             </div>
           </div>
@@ -129,15 +131,15 @@ export default function Home() {
           <div className="grid gap-10 lg:grid-cols-[1fr_1.6fr]">
             <SectionIntro
               eyebrow="Global Reach"
-              title="Connected to the world's business destinations."
-              text="We coordinate services across key business hubs and destinations, with the flexibility to support travel beyond the locations highlighted here."
+              title="Connecting business journeys across key destinations."
+              text="Edora International Way coordinates corporate travel and hospitality across established business hubs, with responsive support wherever your journey takes you."
             />
             <div className="grid gap-4 sm:grid-cols-2">
               {[
                 ["Mumbai / India", IMG.mumbai, "Business & corporate travel"],
                 ["Dubai / UAE", IMG.dubai, "Executive & hospitality"],
                 ["Singapore", IMG.singapore, "International business"],
-                ["Kuwait", IMG.kuwait, "Corporate movements"],
+                ["Beyond", IMG.london, "Corporate movements"],
               ].map(([name, img, desc]) => (
                 <Link
                   to="/global-reach"
