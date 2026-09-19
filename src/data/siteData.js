@@ -30,9 +30,9 @@ export const services = [
 ];
 
 export const solutions = [
-  { icon: Users, title: "Employee Travel", text: "Practical travel coordination that keeps teams moving smoothly and efficiently." },
-  { icon: Star, title: "Executive Travel", text: "Premium, discreet arrangements designed around executive schedules and preferences." },
-  { icon: BriefcaseBusiness, title: "Group Travel", text: "One coordinated approach for teams, delegations and corporate events." },
-  { icon: Globe2, title: "International Business Travel", text: "Cross-border travel support connecting business priorities with global destinations." },
-  { icon: Handshake, title: "Corporate Hospitality", text: "Professional hospitality coordination for clients, guests, meetings and events." }
+  { icon: Users, title: "Employee Travel", text: "We coordinate employee travel with practical planning, reliable arrangements and support throughout the journey." },
+  { icon: Star, title: "Executive Travel", text: "Our team provides discreet, personalised travel arrangements designed around executive schedules and preferences." },
+  { icon: BriefcaseBusiness, title: "Group Travel", text: "We bring flights, accommodation, transfers and related arrangements together for corporate teams and groups." },
+  { icon: Globe2, title: "International Business Travel", text: "International Way coordinates cross-border business travel, connecting your requirements with destinations worldwide." },
+  { icon: Handshake, title: "Corporate Hospitality", text: "We coordinate professional hospitality arrangements for visiting clients, executives, guests, meetings and corporate occasions." }
 ];

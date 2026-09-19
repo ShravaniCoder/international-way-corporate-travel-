@@ -9,8 +9,8 @@ export default function CorporateSolutions() {
   return <>
   <PageHero
   eyebrow="Corporate Solutions"
-  title="Travel solutions aligned to business needs."
-  text="Structured support for employee travel, executive movements, group requirements and corporate hospitality."
+  title="Travel designed around your business."
+  text="Dedicated support for business travel, executive journeys, group movements and corporate hospitality."
   image={IMG.business}
   mobileImage={IMG.solutionMobile}
 />

@@ -19,10 +19,15 @@ export default function Header() {
           <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[#b88b3c]/70 text-[#f1d295]">
             <Globe2 size={21} strokeWidth={1.4}/>
           </div>
-          <div>
-            <div className="font-display text-[16px] tracking-[.07em]">EDORA INTERNATIONAL WAY</div>
-            <div className="mt-0.5 text-[8px] tracking-[.35em] text-[#f1d295]">CORPORATE TRAVEL & HOSPITALITY</div>
-          </div>
+         <div className="flex flex-col items-center text-center">
+  <div className="font-display text-[16px] leading-none tracking-[.07em] whitespace-nowrap">
+    EDORA INTERNATIONAL WAY
+  </div>
+
+  <div className="mt-1 text-[8px] leading-none tracking-[.3em] text-[#f1d295] whitespace-nowrap">
+    CORPORATE TRAVEL & HOSPITALITY
+  </div>
+</div>
         </Link>
         <nav className="hidden items-center gap-7 lg:flex">
           {nav.map(([label, path]) => (

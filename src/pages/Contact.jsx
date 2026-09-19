@@ -7,14 +7,15 @@ import SectionIntro from "../components/SectionIntro";
 export default function Contact() {
   const [sent, setSent] = useState(false);
   return <>
-    <PageHero eyebrow="Contact / Request Assistance" title="Let's coordinate your next journey." text="Tell us what you need and our team can review the requirement and respond with the appropriate next steps." image={IMG.airport}/>
+    <PageHero eyebrow="Contact / Request Assistance" title="Wherever Business Takes You, We Coordinate." text="Provide your requirements and our team will assess the details and guide you through the next steps." image={IMG.airport}/>
     <section className="bg-[#f9f6ef] py-24"><div className="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[.75fr_1.35fr] lg:px-8">
       <div>
-        <SectionIntro eyebrow="Corporate Enquiry" title="A better way to begin." text="For corporate travel, executive movements, group travel, accommodation, transfers, visa assistance or hospitality requirements, send us your details."/>
+        <SectionIntro eyebrow="Corporate Enquiry" title="Design around your requirements." text="Designed Around Your Requirements.
+From corporate travel and executive movements to group arrangements, accommodation, transfers, visa assistance and corporate hospitality, our team coordinates each requirement with precision."/>
         <div className="mt-9 space-y-5">
-          <ContactItem icon={Mail} title="Email" text="corporate@internationalway.com"/>
+          <ContactItem icon={Mail} title="Email" text="corporate@edorainternationalway.com"/>
           <ContactItem icon={Phone} title="Phone" text="+91 00000 00000"/>
-          <ContactItem icon={MapPin} title="Service Coverage" text="India · UAE · Singapore · Kuwait · Other business destinations"/>
+          <ContactItem icon={MapPin} title="Service Coverage" text="India · UAE · Singapore · London · Beyond"/>
         </div>
       </div>
       <form onSubmit={(e)=>{e.preventDefault();setSent(true)}} className="luxury-card p-6 sm:p-9">
