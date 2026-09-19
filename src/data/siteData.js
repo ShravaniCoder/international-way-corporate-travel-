@@ -15,7 +15,8 @@ export const IMG = {
   serviceh : "/images/service.png",
   servicehMobile: "/images/serviceM.png",
   solutionMobile: "/images/solutionM.png",
-  london: "/images/London.png"
+  london: "/images/London.png",
+  europe: "/images/Europe.png",
 };
 
 export const services = [

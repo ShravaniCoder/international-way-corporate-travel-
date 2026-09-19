@@ -12,7 +12,7 @@ export default function GlobalReach() {
     ["Dubai / UAE", IMG.dubai, "A global business hub for executive travel, meetings and hospitality."],
     ["Singapore", IMG.singapore, "A strategic destination for regional and international business movements."],
     ["London", IMG.london, "Corporate travel coordination for business journeys across the Gulf."],
-    ["Beyond", IMG.city, "Flexible coordination for additional destinations based on your itinerary and requirements."]
+    ["Beyond", IMG.europe, "Flexible coordination for additional destinations based on your itinerary and requirements."]
   ];
   return <>
     <PageHero eyebrow="Global Reach" title="Beyond borders. Precisely coordinated." text="Supporting business journeys across key international destinations through refined corporate travel and hospitality coordination." image={IMG.city}/>
