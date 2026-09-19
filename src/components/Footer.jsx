@@ -24,7 +24,7 @@ export default function Footer() {
           <div>
             <div className="text-[10px] font-semibold uppercase tracking-[.2em] text-[#f1d295]">Connect</div>
             <div className="mt-5 space-y-3 text-sm text-white/65">
-              <div className="flex gap-3"><Mail size={16}/> corporate@internationalway.com</div>
+              <div className="flex gap-3"><Mail size={16}/>corporate@edorainternationalway.com</div>
               <div className="flex gap-3"><Phone size={16}/> +91 00000 00000</div>
             </div>
           </div>

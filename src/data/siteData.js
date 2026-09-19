@@ -20,13 +20,41 @@ export const IMG = {
 };
 
 export const services = [
-  { icon: Plane, title: "Corporate Travel", text: "End-to-end coordination for business trips, schedules, changes and travel requirements." },
-  { icon: Hotel, title: "Hotel & Accommodation", text: "Comfortable, business-ready stays selected around location, standards and traveller needs." },
-  { icon: Star, title: "Executive / VIP Travel", text: "Discreet, polished arrangements for senior leaders, VIPs and high-priority travellers." },
-  { icon: Users, title: "Corporate Group Travel", text: "Structured planning for teams, delegations, conferences and group movements." },
-  { icon: FileCheck2, title: "Visa Assistance", text: "Guidance and coordination around documentation and destination-specific travel requirements." },
-  { icon: CarFront, title: "Airport Transfers", text: "Reliable airport-to-hotel and point-to-point ground transportation coordination." },
-  { icon: Handshake, title: "Corporate Hospitality", text: "Thoughtful hospitality experiences for meetings, guests, events and business occasions." }
+  {
+    icon: Plane,
+    title: "Corporate Travel",
+    text: "We coordinate seamless business journeys, managing bookings, schedules, changes and essential travel details.",
+  },
+  {
+    icon: Hotel,
+    title: "Hotel & Accommodation",
+    text: "Our team arranges business-ready stays selected for location, comfort, standards and traveller requirements.",
+  },
+  {
+    icon: Star,
+    title: "Executive / VIP Travel",
+    text: "We deliver discreet travel arrangements tailored to executives, VIPs and high-priority business travellers.",
+  },
+  {
+    icon: Users,
+    title: "Corporate Group Travel",
+    text: "International Way manages coordinated travel for teams, delegations, conferences and corporate group movements.",
+  },
+  {
+    icon: FileCheck2,
+    title: "Visa Assistance",
+    text: "We support travellers with documentation coordination and destination-specific requirements for smoother journeys.",
+  },
+  {
+    icon: CarFront,
+    title: "Airport Transfers",
+    text: "We coordinate dependable airport transfers and ground transportation, connecting travellers smoothly between key locations.",
+  },
+  {
+    icon: Handshake,
+    title: "Corporate Hospitality",
+    text: "Our hospitality solutions are designed to support business guests, meetings, events and important corporate occasions.",
+  },
 ];
 
 export const solutions = [
