@@ -8,9 +8,9 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-5 py-14 lg:px-8">
         <div className="grid gap-10 md:grid-cols-4">
           <div className="md:col-span-2">
-            <div className="font-display text-2xl tracking-[.07em]">INTERNATIONAL WAY</div>
+            <div className="font-display text-2xl tracking-[.07em]">EDORA INTERNATIONAL WAY</div>
             <div className="mt-1 text-[9px] tracking-[.35em] text-[#f1d295]">CORPORATE TRAVEL & HOSPITALITY</div>
-            <p className="mt-6 max-w-md text-sm leading-7 text-white/55">A smarter way to a global tomorrow — coordinating corporate travel and hospitality with a polished, people-first approach.</p>
+            <p className="mt-6 max-w-md text-sm leading-7 text-white/55">EDORA International Way delivers a refined approach to corporate travel and hospitality, connecting people, places and arrangements with precision, discretion and purpose.</p>
           </div>
           <div>
             <div className="text-[10px] font-semibold uppercase tracking-[.2em] text-[#f1d295]">Explore</div>
