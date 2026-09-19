@@ -8,11 +8,11 @@ import Button from "../components/Button";
 
 export default function GlobalReach() {
   const destinations = [
-    ["Mumbai / India", IMG.mumbai, "A key business gateway for domestic and international corporate travel."],
-    ["Dubai / UAE", IMG.dubai, "A global business hub for executive travel, meetings and hospitality."],
-    ["Singapore", IMG.singapore, "A strategic destination for regional and international business movements."],
-    ["London", IMG.london, "Corporate travel coordination for business journeys across the Gulf."],
-    ["Beyond", IMG.europe, "Flexible coordination for additional destinations based on your itinerary and requirements."]
+    ["Mumbai / India", IMG.mumbai, "We coordinate business journeys through a key gateway for corporate travel and international connectivity."],
+    ["Dubai / UAE", IMG.dubai, "We support business journeys through a leading destination for international meetings, executive travel and corporate engagements."],
+    ["Singapore", IMG.singapore, "We coordinate corporate journeys through a highly connected destination for regional and international business travel."],
+    ["London", IMG.london, "We support business journeys to a prominent international destination for corporate meetings and professional engagements."],
+    ["Beyond", IMG.europe, "We coordinate additional destinations according to your itinerary, business priorities and specific requirements."]
   ];
   return <>
     <PageHero eyebrow="Global Reach" title="Beyond borders. Precisely coordinated." text="Supporting business journeys across key international destinations through refined corporate travel and hospitality coordination." image={IMG.city}/>

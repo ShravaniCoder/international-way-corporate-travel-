@@ -20,7 +20,7 @@ export default function Header() {
             <Globe2 size={21} strokeWidth={1.4}/>
           </div>
           <div>
-            <div className="font-display text-[18px] tracking-[.08em]">EDORA INTERNATIONAL WAY</div>
+            <div className="font-display text-[16px] tracking-[.07em]">EDORA INTERNATIONAL WAY</div>
             <div className="mt-0.5 text-[8px] tracking-[.35em] text-[#f1d295]">CORPORATE TRAVEL & HOSPITALITY</div>
           </div>
         </Link>
